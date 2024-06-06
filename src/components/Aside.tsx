@@ -1,5 +1,5 @@
 import './Aside.css'
-import '../public/imagendeflexbox.jpg'
+import '../../public/imagendeflexbox.jpg'
 
 function Aside() {
   

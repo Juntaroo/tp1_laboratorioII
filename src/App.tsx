@@ -2,9 +2,10 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Navbar from './Navbar.tsx'
-import Aside from './Aside.tsx'
-import Footer from './Footer.tsx'
+import Navbar from './components/Navbar.tsx'
+import Aside from './components/Aside.tsx'
+import Footer from './components/Footer.tsx'
+import { Banner } from './components/Banner.tsx'
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         </a>
       </div>
       <h1>Buenas</h1>
+      <Banner></Banner>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           Tus clicks son {count}
