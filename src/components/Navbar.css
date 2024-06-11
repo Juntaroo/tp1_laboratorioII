@@ -9,11 +9,11 @@
 }*/
 
 body{
-    background-color: #fff59d;
+    background-color: black;
 }
 
 .header{
-    background-color: #1bcd77;
+    background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,7 +55,7 @@ body{
 }
 
 .header .nav-links li a:hover{
-    color: #1b3039;
+    color: red;
 }
 
 .header .btn button{

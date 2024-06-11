@@ -1,0 +1,11 @@
+
+
+.titulobody{
+    color: white;
+}
+
+.card-container {
+    display: flex;
+    gap: 16px; /* Espacio entre las cartas */
+    flex-wrap: wrap; /* Para que las cartas se envuelvan en múltiples líneas si es necesario */
+  }
