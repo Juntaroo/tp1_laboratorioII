@@ -29,9 +29,9 @@ fetch(url)
     return response.json();
   })
   .then(data => {
-    console.log('Datos recibidos:', data);
+    console.log('Informacion recibida:', data);
     if (data.code === 'InvalidCredentials') {
-      console.error('Las credenciales de API proporcionadas no son válidas.');
+      console.error('Las credenciales de API proporcionadas no son correctas.');
     } else {
       console.log(data);
     }
